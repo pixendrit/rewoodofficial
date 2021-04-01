@@ -18,11 +18,9 @@ const Contact = () => {
             <Row className="justify-content-center pt-5">
               <Col lg="9" xl="8">
                 <div className="px-md-15 text-center">
-                  <h2 className="title gr-text-2 mb-9">Contact us</h2>
+                  <h2 className="title gr-text-2 mb-9">Ju mirëpresim!</h2>
                   <p className="gr-text-8 mb-13">
-                    With lots of unique blocks, you can easily build a page
-                    without coding. Build your next consultancy website within
-                    few minutes.
+                  Na kontaktoni me njërën nga metodat e mëposhtme apo na vizitoni në showroomin tonë
                   </p>
                 </div>
               </Col>
@@ -41,9 +39,7 @@ const Contact = () => {
                       </div>
                       <div className="widget-text">
                         <p className="gr-text-7 mb-0">
-                          support@grayic.com
-                          <br />
-                          contact@grayic.com
+                          info@rewood.biz
                         </p>
                       </div>
                     </div>
@@ -55,9 +51,7 @@ const Contact = () => {
                       </div>
                       <div className="widget-text">
                         <p className="gr-text-7 mb-0">
-                          34 Madison Street,
-                          <br />
-                          NY, USA 10005
+                          Magjistralja Ferizaj-Prishtinë
                         </p>
                       </div>
                     </div>

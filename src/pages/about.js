@@ -1,26 +1,16 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import PageWrapper from "../components/PageWrapper";
+import MapGoogle from "../components/MapGoogle";
 
-import imgBanner from "../assets/image/inner/about-banner.png";
-import imgC1 from "../assets/image/inner/about-content-1.png";
-import imgC2 from "../assets/image/inner/about-content-2.png";
-import imgC3 from "../assets/image/inner/about-content-3.png";
-import imgC4 from "../assets/image/inner/about-content-4.png";
-import imgT1 from "../assets/image/inner/team-image-1.png";
-import imgT2 from "../assets/image/inner/team-image-2.png";
-import imgT3 from "../assets/image/inner/team-image-3.png";
-import imgT4 from "../assets/image/inner/team-image-4.png";
-import imgT5 from "../assets/image/inner/team-image-5.png";
-import imgT6 from "../assets/image/inner/team-image-6.png";
-import imgT7 from "../assets/image/inner/team-image-7.png";
+
 
 const AboutPage = () => {
   return (
     <>
       <PageWrapper
         headerConfig={{
-          theme: "light",
+          theme: "dark",
           align: "center",
           isFluid: true,
           button: "cta", // cta, account, null
@@ -64,6 +54,29 @@ const AboutPage = () => {
               </Col>
             </Row>
           </Container>
+          <br />
+          <br />
+          <div
+          className="google-map fluid-map-height position-relative overflow-hidden"
+          id="googleMap"
+          css={`
+            position: relative;
+            overflow: hidden;
+          `}
+        >
+          <div
+            css={`
+              height: 100%;
+              width: 100%;
+              position: absolute;
+              top: 0px;
+              left: 0px;
+              background-color: rgb(229, 227, 223);
+            `}
+          >
+            <MapGoogle />
+          </div>
+        </div>
         </div>
         
         <div className="pt-13 pt-lg-24 pb-lg-24 ">

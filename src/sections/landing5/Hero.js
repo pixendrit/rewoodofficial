@@ -18,10 +18,10 @@ const Hero = () => {
             <Col md="9" lg="7" xl="6">
               <div className="text-center">
                 <p className="gr-text-12 gr-text-color font-weight-bold text-uppercase mb-9">
-                  Garancion 100 vjeçar në produktet tona
+                  Çojeni inspirimin në...
                 </p>
                 <h1 className="gr-text-2 mb-8">
-                 MOBILJE QË NUK PLAKEN KURRË!
+                 MOBILJE QË I JAPIN FORMË SHTËPISË TUAJ!
                 </h1>
               </div>
             </Col>

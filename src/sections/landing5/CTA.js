@@ -20,7 +20,7 @@ const CTA = () => {
                 <h2 className="gr-text-2 font-weight-bold pb-8 pb-md-12">
                   A je gati me dekoru vendin ku jeton e punon?
                 </h2>
-                <a href="https://m.me/rewood.official" target="_blank" className="btn btn-blue gr-hover-y">
+                <a href="https://m.me/rewood.official" target="_blank" className="btn btn-primary gr-hover-y">
                  Fillo bisedën në messenger
                 </a>
               </div>

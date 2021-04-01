@@ -11,7 +11,7 @@ const IndexPage = () => {
     <>
       <PageWrapper
         headerConfig={{
-          theme: "light",
+          theme: "dark",
           align: "center",
           isFluid: true,
           button: "cta", // cta, account, null

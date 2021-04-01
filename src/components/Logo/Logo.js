@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 
 import imgL1Logo from "../../assets/image/logo.svg";
-import imgL1LogoWhite from "../../assets/image/logo-main-white.png";
+import imgL1LogoWhite from "../../assets/image/logo.svg";
 
 const Logo = ({ white, height, className = "", ...rest }) => {
   return (

@@ -1,6 +1,7 @@
 import React from "react";
 
 import PageWrapper from "../components/PageWrapper";
+import Hero2 from "../sections/landing9/Hero";
 import Hero from "../sections/landing5/Hero";
 import Categories from "../sections/landing5/Categories";
 import Content from "../sections/landing5/Content";
@@ -21,6 +22,8 @@ const IndexPage = () => {
            style: "style1", //style1, style2
         }}
       >
+        <Hero2 />
+        <br />
         <Hero />
         <Categories />
         <Content />
